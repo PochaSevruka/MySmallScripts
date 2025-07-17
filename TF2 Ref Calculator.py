@@ -23,7 +23,6 @@ while True:
         ProductDecimals = decimal * quantity
     else:
         for i in range(1, quantity):
-            print("+123")
             ProductDecimals += (k * 11)
             if BoolSummand == True:
                 ProductDecimals += ProductDecimals05 + 1
@@ -32,7 +31,6 @@ while True:
             else:
                 ProductDecimals += ProductDecimals05
                 BoolSummand = True
-            print(BoolSummand)
 # ------------------------------------------------------------------
     if ProductDecimals >= 99:
         ProductIntegers += ProductDecimals // 99
