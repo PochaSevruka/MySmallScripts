@@ -36,7 +36,9 @@ while True:
         ProductIntegers += ProductDecimals // 99
         ProductDecimals = ProductDecimals % 99
 # -----------------------------------------------------------------
+    print(f"{ProductIntegers} Ref | {ProductDecimals // 33} Rec | {(ProductDecimals % 33) // 11} Scrap | {((ProductDecimals % 33) % 11) // 5} Weapons")
+# -----------------------------------------------------------------
     if len(str(ProductDecimals)) == 1:
-      ProductDecimals = "0" + str(ProductDecimals)
+        ProductDecimals = "0" + str(ProductDecimals)
 # -----------------------------------------------------------------
     print(f"Price: {ProductIntegers}.{str(ProductDecimals)}")
